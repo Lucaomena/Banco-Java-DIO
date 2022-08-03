@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Cliente lucas = new Cliente();
+		lucas.setNome("lucas");
+		
+		
+		Conta cc = new ContaCorrente(lucas);
+		cc.depositar(100);
+		cc.sacar(50);
+		
+		Conta poupanca = new ContaPoupanca(lucas);
+		cc.transferir(50, poupanca);
+		
+		cc.imprimirExtrato();
+		poupanca.imprimirExtrato();
+
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\lucao\OneDrive\Área de Trabalho\Programação-Dio\Projeto Java\Projeto-Banco-digital\.metadata\.plugins\org.eclipse.jdt.core
+3824656442.index
+1860129895.index
+1865797976.index
